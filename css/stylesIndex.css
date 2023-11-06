@@ -156,8 +156,36 @@ nav a{
 /*LOOP INFINITO MARCAS*/
 
 
+.conteinerSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*SECCION UNO DOS TRES*/
+.sectionItem{
+    width: 90%;
+    height: 500px;
+    background-color: #303030;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+/*SECCION UNO DOS TRES*/
 
 
+.conteinerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row row-cols-1 row-cols-md-3 g-4{
+    width: 90%;
+
+}
 /*FIN DEL MAIN*/
 
 
