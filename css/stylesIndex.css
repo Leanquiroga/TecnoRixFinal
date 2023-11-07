@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #202020;
+    background-color: #202020 !important;
 }
 
 /*INICIO DEL HEADER*/
@@ -167,25 +167,41 @@ nav a{
 /*SECCION UNO DOS TRES*/
 .sectionItem{
     width: 90%;
-    height: 500px;
+    height: 700px;
+    color: white;
     background-color: #303030;
     border-radius: 20px;
     margin-top: 30px;
 }
+
+.conteinerText{
+    text-align: center;
+    margin: 30px 10px 30px 10px;
+}
 /*SECCION UNO DOS TRES*/
 
+
+
+.sectionCard{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionCard h2{
+    margin-top: 10px;
+    color: white;
+
+}
 
 .conteinerCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 90%;
 }
 
-.row row-cols-1 row-cols-md-3 g-4{
-    width: 90%;
-
-}
 /*FIN DEL MAIN*/
 
 
