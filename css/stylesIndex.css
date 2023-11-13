@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #202020;
+    background-color: #202020 !important;
 }
 
 /*INICIO DEL HEADER*/
@@ -171,21 +171,40 @@ nav a{
     background-color: #303030;
     border-radius: 20px;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 /*SECCION UNO DOS TRES*/
 
 
-.conteinerCard{
+
+/*SECCION CARDS*/
+.sectionCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    
 }
 
-.row row-cols-1 row-cols-md-3 g-4{
+
+.contenedorH2Card{
+    color: white;
+    margin: 20px;
+}
+
+
+.conteinerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
-
+    height: 300px;
 }
+
+/*SECCION CARDS*/
+
+
 /*FIN DEL MAIN*/
 
 
