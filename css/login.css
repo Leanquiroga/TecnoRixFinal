@@ -72,6 +72,7 @@ nav a{
     width: 880px;
     max-width: 100%;
     min-height: 480px;
+    margin-top: 50px;
 }
 
 .container p{
