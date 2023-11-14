@@ -161,13 +161,13 @@ nav a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 /*SECCION UNO DOS TRES*/
 .sectionItem{
     width: 90%;
-    height: 500px;
+    height: 300px;
     background-color: #303030;
     border-radius: 20px;
     margin-top: 30px;
