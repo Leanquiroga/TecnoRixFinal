@@ -72,7 +72,7 @@ nav a{
     width: 880px;
     max-width: 100%;
     min-height: 480px;
-    margin-top: 50px;
+    margin: 30px;
 }
 
 .container p{
@@ -236,3 +236,34 @@ h1{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+
+/* INICIO FOOTER */
+footer{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    background-color: #101010;
+    width: 100%;
+}
+
+.logofooter{
+    width: 50px;
+    height: 57px;
+    margin-right: 10px;
+}
+
+.navLogoFooter{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+}
+
+.contactoFooter{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+/* FIN FOOTER */
