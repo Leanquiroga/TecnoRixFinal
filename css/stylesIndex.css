@@ -161,51 +161,80 @@ nav a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 
 /*SECCION UNO DOS TRES*/
 .sectionItem{
     width: 90%;
-    height: 700px;
-    color: white;
+    height: 300px;
     background-color: #303030;
     border-radius: 20px;
     margin-top: 30px;
-}
-
-.conteinerText{
-    text-align: center;
-    margin: 30px 10px 30px 10px;
+    margin-bottom: 40px;
 }
 /*SECCION UNO DOS TRES*/
 
 
 
+/*SECCION CARDS*/
 .sectionCard{
-    width: 90%;
-    align-items: center;
-    justify-content: center;
-}
-
-.sectionCard h2{
-    margin-top: 10px;
-    color: white;
-
-}
-
-.conteinerCard{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    width: 100%;
+    
 }
+
+
+.contenedorH2Card{
+    color: white;
+    margin: 20px;
+}
+
+
+.conteinerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+}
+
+/*SECCION CARDS*/
+
 
 /*FIN DEL MAIN*/
 
 
 
-/*INICIO DEL FOOTER*/
+/* INICIO FOOTER */
+footer{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    background-color: #101010;
+    margin-top: 50px;
+}
 
-/*FIN DEL FOOTER*/
+.logofooter{
+    width: 50px;
+    height: 57px;
+    margin-right: 10px;
+}
+
+.navLogoFooter{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+}
+
+.contactoFooter{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+/* FIN FOOTER */
