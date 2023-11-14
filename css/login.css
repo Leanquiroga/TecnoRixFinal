@@ -12,9 +12,57 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+
+}
+/*INICIO DEL HEADER*/
+header{
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    background-color: #151515;
 }
 
+.conteinerLogo{
+    margin: 10px 10px 10px 20px;
+}
+
+.conteinerLogo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.imgLogo{
+    width: 40px;
+    height: 47px;
+    margin-right: 10px;
+}
+
+.tecnorixH1{
+    color: white;
+    margin: 1px 1px 1px 1px;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    font-size: 28px;
+}
+
+/*INICIO DEL NAV*/
+nav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+nav a{
+    color: white;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*FIN DEL NAV*/
+
+/*FIN DEL HEADER*/
 .container{
     background-color: #303030;
     border-radius: 30px;
