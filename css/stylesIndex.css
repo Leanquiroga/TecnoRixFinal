@@ -159,15 +159,15 @@ nav a{
 .conteinerSection{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 /*SECCION UNO DOS TRES*/
 .sectionItem{
+    display: flex;
+    align-items: center;
     width: 90%;
-    height: 700px;
+    height: 300px;
     color: white;
     background-color: #303030;
     border-radius: 20px;
@@ -176,13 +176,23 @@ nav a{
 
 .conteinerText{
     text-align: center;
-    margin: 30px 10px 30px 10px;
+    margin: 30px 80px 30px 80px;
 }
 
 
 .conteinerSection h2{
     margin: 20px 0 10px 0;
     color: white;
+}
+
+.conteinerCarcasa{
+    
+    float: right;
+    right: 0;
+}
+
+.Carcasaimg{
+    margin: 15px;
 }
 
 /*SECCION UNO DOS TRES*/
@@ -280,14 +290,15 @@ nav a{
     border-radius: 10px;
     width: 90%;
     height: 250px;
+    margin-bottom: 50px;
 }
 
 .conteinerComunidad h2{
-    margin: 30px 15px 0 15px;
+    margin: 20px 15px 0 15px;
 }
 
 .contenierTextComunidad{
-    margin: 30px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 input[type=text]{
@@ -332,5 +343,33 @@ input[type=text]:focus{
 
 
 /*INICIO DEL FOOTER*/
+
+footer{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    background-color: #101010;
+    width: 100%;
+}
+
+.logofooter{
+    width: 50px;
+    height: 57px;
+    margin-right: 10px;
+}
+
+.navLogoFooter{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+}
+
+.contactoFooter{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
 
 /*FIN DEL FOOTER*/
