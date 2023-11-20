@@ -178,12 +178,19 @@ nav a{
     text-align: center;
     margin: 30px 10px 30px 10px;
 }
+
+
+.conteinerSection h2{
+    margin: 20px 0 10px 0;
+    color: white;
+}
+
 /*SECCION UNO DOS TRES*/
 
 
 
 .sectionCard{
-    width: 90%;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
@@ -194,16 +201,63 @@ nav a{
 
 }
 
-.conteinerCard{
+.crad {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
+    flex-wrap: wrap;
+    gap: 1%;
+    width: 90%;
 }
+
+.card-list {
+    flex: 1;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.card-list p {
+    padding: 0 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+
 
 /*FIN DEL MAIN*/
 
+
+/*INICIO DEL FAQ*/
+
+
+.conteinerFAQ{
+    margin: 30px 0 30px 0;
+}
+
+.FAQh2{
+    color: white;
+    margin-left: 20px;
+}
+
+#accordionFlushExample {
+    margin: 10px 20px 20px 20px;
+}
+
+.accordion-body {
+    color: white;
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+.accordion-header button {
+    color: white;
+    background-color: #101010;
+    
+}
+  
+
+/*FIN DEL FAQ*/
 
 
 /*INICIO DEL FOOTER*/
