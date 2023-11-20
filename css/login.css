@@ -12,9 +12,57 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+
+}
+/*INICIO DEL HEADER*/
+header{
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    background-color: #151515;
 }
 
+.conteinerLogo{
+    margin: 10px 10px 10px 20px;
+}
+
+.conteinerLogo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.imgLogo{
+    width: 40px;
+    height: 47px;
+    margin-right: 10px;
+}
+
+.tecnorixH1{
+    color: white;
+    margin: 1px 1px 1px 1px;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    font-size: 28px;
+}
+
+/*INICIO DEL NAV*/
+nav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+nav a{
+    color: white;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*FIN DEL NAV*/
+
+/*FIN DEL HEADER*/
 .container{
     background-color: #303030;
     border-radius: 30px;
@@ -24,6 +72,7 @@ body{
     width: 880px;
     max-width: 100%;
     min-height: 480px;
+    margin: 30px;
 }
 
 .container p{
@@ -187,3 +236,34 @@ h1{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+
+/* INICIO FOOTER */
+footer{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    color: white;
+    background-color: #101010;
+    width: 100%;
+}
+
+.logofooter{
+    width: 50px;
+    height: 57px;
+    margin-right: 10px;
+}
+
+.navLogoFooter{
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 10px 20px;
+}
+
+.contactoFooter{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+/* FIN FOOTER */
