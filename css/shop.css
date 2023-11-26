@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202020 !important;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    background-color: #151515;
+}
+
+.conteinerLogo{
+    margin: 10px 10px 10px 20px;
+}
+
+.conteinerLogo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.imgLogo{
+    width: 40px;
+    height: 47px;
+    margin-right: 10px;
+}
+
+.tecnorixH1{
+    color: white;
+    margin: 1px 1px 1px 1px;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    font-size: 28px;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+nav a{
+    color: white;
+    font-family: Roboto Condensed, Roboto, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 90%;
+      height: 450px;
+      border-radius: 20px;
+      margin: 30px 0px 30px 0px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card {
+      border-radius: .7rem;
+    }
