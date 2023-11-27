@@ -1,5 +1,5 @@
 /* Esta lista podría ser reemplazada por la respuesta de un backend */
-const bicicletas = [
+const escaneres = [
     {
       id:1,
       nombre: "Escaner 1 ",
@@ -7,7 +7,7 @@ const bicicletas = [
     },
     {
       id:2,
-      nombre: "Escamer 2",
+      nombre: "Escaner 2",
       precio: 75000,
     },
     {

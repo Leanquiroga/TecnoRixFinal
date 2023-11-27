@@ -7,12 +7,12 @@ const totalesContainer = document.getElementById("totales");
 /** Crea las tarjetas de productos teniendo en cuenta lo guardado en localstorage */
 function crearTarjetasProductosCarrito() {
   contenedorTarjetas.innerHTML = "";
-  const productos = JSON.parse(localStorage.getItem("bicicletas"));
+  const productos = JSON.parse(localStorage.getItem("escaneres"));
   if (productos && productos.length > 0) {
     productos.forEach((producto) => {
-      const nuevaBicicleta = document.createElement("div");
-      nuevaBicicleta.classList = "tarjeta-producto";
-      nuevaBicicleta.innerHTML = `
+      const nuevoEscaner = document.createElement("div");
+      nuevoEscaner.classList = "tarjeta-producto";
+      nuevoEscaner.innerHTML = `
     <img src="/image/${producto.id}.webp" alt="Bicicleta 1">
     <h3>${producto.nombre}</h3>
     <span>$${producto.precio}</span>
@@ -22,8 +22,8 @@ function crearTarjetasProductosCarrito() {
     <button>+</button>
     </div>
     `;
-      contenedorTarjetas.appendChild(nuevaBicicleta);
-      nuevaBicicleta
+      contenedorTarjetas.appendChild(nuevoEscaner);
+      nuevoEscaner
         .getElementsByTagName("button")[0]
         .addEventListener("click", (e) => {
           const cantidadElement = e.target.parentElement.getElementsByClassName("cantidad")[0];
@@ -31,7 +31,7 @@ function crearTarjetasProductosCarrito() {
           crearTarjetasProductosCarrito();
           actualizarTotales();
         });
-      nuevaBicicleta
+      nuevoEscaner
         .getElementsByTagName("button")[1]
         .addEventListener("click", (e) => {
           const cantidadElement = e.target.parentElement.getElementsByClassName("cantidad")[0];
@@ -49,7 +49,7 @@ crearTarjetasProductosCarrito();
 
 /** Actualiza el total de precio y unidades de la página del carrito */
 function actualizarTotales() {
-  const productos = JSON.parse(localStorage.getItem("bicicletas"));
+  const productos = JSON.parse(localStorage.getItem("escaneres"));
   let cantidad = 0;
   let precio = 0;
   if (productos && productos.length > 0) {
@@ -74,7 +74,7 @@ document.getElementById("reiniciar").addEventListener("click", () => {
 
 /** Muestra o esconde el mensaje de que no hay nada en el carrito */
 function revisarMensajeVacio() {
-  const productos = JSON.parse(localStorage.getItem("bicicletas"));
+  const productos = JSON.parse(localStorage.getItem("escaneres"));
   carritoVacioElement.classList.toggle("escondido", productos);
   totalesContainer.classList.toggle("escondido", !productos);
 }
