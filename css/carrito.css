@@ -8,6 +8,9 @@
     align-items: center;
     height: 100px;
     gap: 20px;
+    color: white;
+    border: solid white 1px;
+    margin: 10px;
   }
   
   .tarjeta-producto img{
